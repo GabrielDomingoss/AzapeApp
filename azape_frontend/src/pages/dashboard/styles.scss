@@ -1,0 +1,125 @@
+.title {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.text {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    font-size: 1.188rem !important;
+    line-height: 1.425rem !important;
+    color: #59666F;
+}
+
+.card .cardContent{
+    width: 20rem;
+    max-width: 20rem;
+}
+
+.card .cardContent img {
+    width: 3rem;
+}
+
+.card .cardContent .subtitle {
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.card .cardContent .infoValues {
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.noBoxShadow {
+    box-shadow: none !important;
+    border-left: 0.1rem solid #F5F5F5;
+    border-right: 0.1rem solid #F5F5F5;
+}
+
+.tableHeaderRow {
+    vertical-align: top !important;
+    th:nth-child(odd){
+        background-color: #FE877A;
+    }
+    th:nth-child(even){
+        background-color: #FE7C6E;
+    }
+}
+
+.tableHeaderRow .tableHeaderCell {
+    color: white;
+    font-weight: 700;
+}
+
+.tableHeaderRow .tableHeaderCell:first-child {
+    border-radius: 0.5rem 0rem 0rem 0rem!important;
+}
+
+.tableHeaderRow .tableHeaderCell:last-child {
+    border-radius: 0rem 0.5rem 0rem 0rem !important;
+}
+
+.tableBodyRow {
+    td:nth-child(odd){
+        background-color: #FFFFFF;
+        border-color: #F5F5F5;
+    }
+    td:nth-child(even){
+        background-color: #FCFCFC;
+        border-color: #F5F5F5;
+    }
+}
+
+.pagination {
+    margin-top: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    padding: 1rem;
+}
+
+.pagination .currentPage {
+    border-radius: 90%;
+    min-width: 2rem;
+}
+
+.pagination .nopadding {
+    padding-left: 0 !important;
+}
+
+.filledCell {
+    background-color: #FF715B !important;
+    color: #fff;
+}
+.transparentCell {
+    background-color: transparent !important;
+    color: #97A1A8 !important;
+    border-color: #97A1A8 !important;
+}
+
+.paginationItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowsPerPageLabel {
+    width: 100%;
+    color: #97A1A8;
+}
+
+.MuiSelect-select {
+    background-color: white !important;
+}
+
+.pageQtt {
+    margin-left: 2rem !important;
+    color: #97A1A8;
+}
+
+@media (max-width: 768px) {
+    .table-container {
+        overflow-x: auto;
+    }
+}
